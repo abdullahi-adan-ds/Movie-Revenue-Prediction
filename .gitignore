@@ -1,3 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Data files (keep only samples or links)
+data/
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# Logs
+*.log
+
+# Large model files
+*.h5
+*.pkl
+*.joblib
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
